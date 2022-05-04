@@ -1,5 +1,5 @@
 <template>
-
+<v-app>
 
     <div class="container">
         <v-row class="mt-5">
@@ -9,7 +9,7 @@
                     <v-spacer></v-spacer>
                     <v-card-actions class="card-tools">
                         <v-btn dark style="background-color:#66ff66 "
-                            elevation="2"  @click="openModal">Add New Books</i></v-btn>
+                            elevation="2"  @click="openModal">Add New Books</v-btn>
                     </v-card-actions>
                 </v-card-title>
 
@@ -105,9 +105,9 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <v-btn type="button" dark color="error" elevation="2" data-dismiss="modal">Close</v-btn>
-                        <v-btn v-show="editmode" dark type="submit" color="success" elevation="2">Update</v-btn>
-                        <v-btn v-show="!editmode" dark type="submit" color="green"  elevation="2">Create</v-btn>
+                        <v-btn type="button" dark color="error"  elevation="2" data-dismiss="modal">Close</v-btn>
+                        <v-btn v-show="editmode" dark type="submit" class="warning" color="success" elevation="2">Update</v-btn>
+                        <v-btn v-show="!editmode" dark type="submit" class="success" color="green"  elevation="2">Create</v-btn>
                     </div>
 
                 </form>
@@ -116,6 +116,9 @@
             </div>
         </div>
     </div>
+
+</v-app>
+
 </template>
 
 <script>
