@@ -30,9 +30,9 @@
 				</router-link>
 			</li>
             <li class="nav-item">
-				<router-link to="/soa" class="nav-link ">
-					<i class="nav-icon fas fa-file green"></i>
-					<p>Statement of Account</p>
+				<router-link to="/books" class="nav-link ">
+					<i class="nav-icon fas fa-user green"></i>
+					<p>Books</p>
 				</router-link>
 			</li>
 

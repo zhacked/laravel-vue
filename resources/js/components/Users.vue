@@ -1,7 +1,7 @@
 <template >
     <v-app>
 		<v-container>
-			<v-row class="mt-5" v-if="$gate.isAdmin()">
+			<v-row class="mt-5">
 				<v-col class="col-md-12">
 					<v-card >
 						<v-card-title class="card-header">
